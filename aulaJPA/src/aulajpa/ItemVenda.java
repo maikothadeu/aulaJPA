@@ -94,7 +94,9 @@ public class ItemVenda implements Serializable {
         return hash;
     }
     
-     
+   
+    
+    
     @Override
     public String toString() {
         return "aulajpa.ItemVenda[ id=" + id + " ]";

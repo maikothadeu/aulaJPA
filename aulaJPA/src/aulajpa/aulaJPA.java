@@ -24,7 +24,7 @@ public class aulaJPA {
         EntityManagerFactory fabrica = Persistence.createEntityManagerFactory("aulaJPAPU");
         EntityManager manager = fabrica.createEntityManager();
         Pessoa p = new Pessoa();
-        p.setNome("Maiko");
+        p.setNome("Maiko");    
         
         EntityTransaction tran = manager.getTransaction();
         tran.begin();
