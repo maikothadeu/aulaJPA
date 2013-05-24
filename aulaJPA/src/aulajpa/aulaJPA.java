@@ -42,9 +42,9 @@ public class aulaJPA {
         
         List<Produto> lista = consulta.getResultList();
         
-        for(Produto p : lista ){
-            System.out.print(p);
-        }
+      //  for(Produto p : lista ){
+       //     System.out.print(p);
+        //}
     }
     
     
